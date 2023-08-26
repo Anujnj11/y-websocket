@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  y-socket:
+    build:
+      dockerfile: Dockerfile
+    # Port not required to expose as we are using reverse proxy
+    ports:
+      - 1234:1234
+    # env_file:
+    #   - ./.env

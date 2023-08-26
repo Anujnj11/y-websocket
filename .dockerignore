@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+logs
+# ignore .git and .cache folders
+.git
+.cache
+.gitignore
+
+# ignore all markdown files (md)
+*.md
+/coverage
